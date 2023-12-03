@@ -1,0 +1,144 @@
+@media only screen and (max-width: 983px){
+
+    #nav_ul{
+        gap: 0px;
+    }
+
+    .inner_div_nav{
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .navbar{
+        transform: all 0.7s ease-out;
+    }
+
+    .welcome{
+        flex-direction: column;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .welcome2{
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .profile_pic {
+        margin: 70px auto 39px auto;
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .hello {
+        font-size: 31px;
+    }
+
+    .hello2{
+       color: #404040de;
+    }
+
+    .professional_links{
+        justify-content: center;
+        margin-bottom: 28px;
+    }
+
+    .line{
+        margin-top: 15px;
+    }
+
+    .resume_box{
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 575px){
+
+    .navbar-brand{
+        margin-left: 20px;
+    }
+
+    .works_box{
+        max-width: 300px;
+    }
+
+    .project_img{
+        width: 249px;
+        height: 153px;
+    }
+
+    .resume_details{
+        max-width: 305px;
+    }
+
+    .text_skill_head{
+        margin-left: 43px;
+    }
+
+    .text_skill_head_2 {
+        margin-left: 44px;
+    }
+
+}
+
+@media only screen and (max-width: 445px) {
+    .skill_languages{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 30px;
+    }
+
+    .skill_box, .skill_boxB{
+        max-width: 146px;
+    }
+
+    .skill_logo_name, .skill_logo_nameB {
+        margin-top: 17px;
+        font-size: 17px;
+    }
+
+    #mail_id{
+        font-size: 8px;
+    }
+
+    .all_mail{
+        margin: auto;
+    }
+
+    .mail_icon_footer{
+        width: 18px;
+        height: 18px;
+    }
+}
+
+@media only screen and (max-width: 386px) {
+    .profile_pic {
+        margin: 70px auto 39px auto;
+        max-width: 170px;
+        max-height: 170px;
+    }
+
+    .hello {
+        font-size: 19px;
+        font-weight: 600;
+    }
+
+    .hello2{
+        font-size: 12px;
+    }
+
+    .works_box{
+        max-width: 257px;
+    }
+
+    .project_img{
+        width: 218px;
+        height: 127px;
+    }
+
+    .resume_details{
+        max-width: 260px;
+    }
+
+}
