@@ -48,8 +48,9 @@ nav{
 }
 
 .welcome, nav{
-    background-color: #08AEEA;
-    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+    /* background-color: #96EFFF; */
+    /* background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%); */
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
     background-size: cover; 
     background-repeat: no-repeat; 
     background-attachment: fixed;
@@ -75,7 +76,8 @@ nav{
 
 .hello{
     font-size: 33px;
-    color: rgb(19, 22, 64);
+    /* color: rgb(19, 22, 64); */
+    color: #060606;
 }
 
 
@@ -85,10 +87,11 @@ nav{
 
 .web_dev{
     font-size: 44px;
-    color: rgb(255, 189, 36);
+    /* color: rgb(255, 189, 36); */
+    color: #192655;
     font-family: 'Lexend', sans-serif;
     font-family: 'Roboto', sans-serif;
-    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.5));
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.2));
 }
 
 
@@ -256,7 +259,8 @@ nav{
     margin-top: 50px;
     max-width: 360px;
     outline-style: solid;
-    outline-color: rgb(255, 196, 54);
+    /* outline-color: rgb(255, 196, 54); */
+    outline-color: #060606;
 }
 
 .resume_details:hover{
@@ -324,7 +328,7 @@ nav{
     font-size: 22px;
     font-weight: 500;
     color: #181818;
-    border: 3px solid rgb(255, 196, 54);
+    border: none;
     border-radius: 8px;
     box-shadow: 0 0 0 #fec1958c;
     transition: all .3s ease-in-out;
@@ -399,8 +403,9 @@ nav{
   
 .resume_details button:hover {
     background: transparent;
-    color: rgb(255, 196, 54);
+    color: black;
     box-shadow: 0 0 25px #fec1958c;
+    border: 2px solid rgb(0, 0, 0);
   }
   
   .resume_details button:hover .star-1 {
