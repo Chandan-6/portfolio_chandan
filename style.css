@@ -204,8 +204,8 @@ nav{
 }
 
 .works_box:hover{
-    transform: scale(1.1);
-    transition: all 0.5s;
+    transform: scale(0.9) !important;
+    background-color: #4facfe5c;
 }
 
 .project_no{
@@ -223,7 +223,7 @@ nav{
 
 .project_description{
     font-size: 16px;
-    color: #717275;
+    color: #717275 !important;
 }
 
 .btn {
